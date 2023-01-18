@@ -108,7 +108,7 @@ export const hamburguerHeader = styled.div`
         
         cursor: pointer;    
         display: block;
-        z-index: 11;
+        z-index: 101;
     }
 
     .hamburguer span{
@@ -122,8 +122,8 @@ export const hamburguerHeader = styled.div`
 
     #hamburguerClosed{
         position: fixed;
-        right: 0;
-        top: 70px;
+        right: 5px;
+        top: 75px;
 
     }
     #hamburguerClosed span:nth-child(2){
@@ -143,7 +143,7 @@ export const NavMobile = styled.div`
 
     position: fixed;
     right: -100%;
-    z-index: 10;
+    z-index: 100;
     .navbarmobile{
         position: fixed;
         right: -100%;
