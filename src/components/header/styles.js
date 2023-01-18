@@ -49,7 +49,7 @@ export const Nav = styled.nav`
         font-family: 'Barlow Condensed', serif;
         color: rgb(240,240,240);
         font-size: 1.2vw;
-        @media screen and (max-width: 826px){
+        @media screen and (max-width: 834px){
             font-size: .7rem;
 
         }
@@ -62,7 +62,7 @@ export const Nav = styled.nav`
             width: 0%;
             border-bottom: 3px solid #999;
             transition: width .2s;
-            @media screen and (max-width: 826px){
+            @media screen and (max-width: 834px){
                 bottom: -42px;
 
             }
@@ -80,7 +80,7 @@ export const Nav = styled.nav`
         color: #fff;
         margin-right: 9px;
         font-weight: bold;
-        @media screen and (max-width: 826px){
+        @media screen and (max-width: 834px){
             display: none;
         }
     }

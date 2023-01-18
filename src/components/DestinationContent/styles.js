@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Main = styled.main`
     display: flex;
     justify-content: space-between;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         flex-direction: column;
     }
 
@@ -14,7 +14,7 @@ export const leftSide = styled.div`
     padding-left: 10vw;
     width: 50vw;
     height: 80vh;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         width: 100vw;
         text-align: center;
         padding-top: 10vh;
@@ -37,7 +37,7 @@ export const leftSide = styled.div`
         margin-left: 2rem;
         width: 70%;
         animation: spin 15s infinite linear;
-        @media screen and (max-width: 826px){
+        @media screen and (max-width: 834px){
             width: 50%;
         }
         @media screen and (max-width: 430px){
@@ -64,7 +64,7 @@ export const rightSide = styled.div`
     justify-content: center;
     flex-direction: column;
     padding-left: 6rem;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         width: 100vw;
         height: 100%;
         text-align: center;
@@ -87,7 +87,7 @@ export const rightSide = styled.div`
         font-weight: 400;
         text-transform: uppercase;
         font-size: 6rem;
-        @media screen and (max-width: 826px){
+        @media screen and (max-width: 834px){
             text-align: center;
         }
         @media screen and (max-width: 430px){

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Main = styled.main`
     display: flex;
     justify-content: space-between;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         flex-direction: column;
     }
     @media screen and (max-width: 430px){
@@ -19,7 +19,7 @@ export const leftSide = styled.div`
     width: 50vw;
     height: 80vh;
     position: relative;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         padding-top: 7vh;
         width: 100vw;
         height:80vh;
@@ -64,7 +64,7 @@ export const rightSide = styled.div`
     flex-direction: column;
     padding-left: 6rem;
     position: relative;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         height: 100%;
         width: 100vw;
         align-items: center;
@@ -74,8 +74,8 @@ export const rightSide = styled.div`
         position: absolute;
         bottom: 0;
         height: 38vw;
-        @media screen and (max-width: 826px){
-            height: 56vw;
+        @media screen and (max-width: 834px){
+            height: 49vw;
         }
         @media screen and (max-width: 430px){
             bottom: -320px;
@@ -91,7 +91,7 @@ export const About = styled.div`
         font-weight: 400;
         font-size: 1.3rem;
         width: 35vw;
-        @media screen and (max-width: 826px){
+        @media screen and (max-width: 834px){
             text-align: center;
             width: 100vw;
             padding: 0 5rem;
@@ -125,10 +125,11 @@ export const About = styled.div`
 `
 
 export const next = styled.div`
+    z-index: 50;
     display: flex;
     position: absolute;
     top: 450px;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         left: 50%;
         top: 435px;
         transform: translateX(-50%);
@@ -142,7 +143,7 @@ export const next = styled.div`
         background-color: #333;
         width: 15px;
         height: 15px;
-        @media screen and (max-width: 826px){
+        @media screen and (max-width: 834px){
             background-color: #111;
         }   
 

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Main = styled.main`
     display: flex;
     justify-content: space-between;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         flex-direction: column-reverse;
     }
 
@@ -14,7 +14,7 @@ export const leftSide = styled.div`
     padding-top: 6vh;
     width: 50vw;
     height: 80vh;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         padding-left: 0;
         height: 100%;
         margin-bottom: 10rem;
@@ -40,7 +40,7 @@ export const leftSide = styled.div`
     }
 
     .title{
-        @media screen and (max-width: 826px){
+        @media screen and (max-width: 834px){
             position: absolute;
             top: 24vh;
             left: 50%;
@@ -60,7 +60,7 @@ export const rightSide = styled.div`
     justify-content: center;
     flex-direction: column;
     padding-left: 6rem;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         padding-left: 0;
         width: 100vw;
         padding-top: 5rem;
@@ -88,7 +88,7 @@ export const rightSide = styled.div`
     img{
         width: 100%;
         height: 70vh;
-        @media screen and (max-width: 826px){
+        @media screen and (max-width: 834px){
             width: 100vw;
             height: 50vh;
         }
@@ -99,7 +99,7 @@ export const rightSide = styled.div`
 export const leftContent = styled.div`
     display: flex;
     gap: 3rem;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         flex-direction: column;
         align-items: center;
         padding: 0 3rem;
@@ -110,7 +110,7 @@ export const options = styled.div`
     display: flex;
     flex-direction: column;
     gap: 3vh;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         flex-direction: row;
     }
 
@@ -142,7 +142,7 @@ export const options = styled.div`
 `
 
 export const data = styled.div`
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         text-align: center;
         
     }

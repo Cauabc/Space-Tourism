@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.main`
     display: flex;
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         flex-direction: column;
     }
     justify-content: space-between;
@@ -10,13 +10,13 @@ export const Main = styled.main`
 
 export const leftSide = styled.div`
     width: 60vw;
-    padding-top: 9vw;
-    padding-left: 6vw;
+    padding-top: 6vw;
+    padding-left: 9vw;
     height: 80vh;
     
-    @media screen and (max-width: 826px){
+    @media screen and (max-width: 834px){
         width: 100vw;
-        padding-top: 15vw;
+        padding-top: 5vw;
         padding-left: 0;
         height: 30vh;
     }
@@ -27,7 +27,7 @@ export const leftSide = styled.div`
         font-size: 1.3rem;
         letter-spacing: 2px;
 
-        @media screen and (max-width: 826px){
+        @media screen and (max-width: 834px){
             text-align: center;
             font-size: 1rem;
             margin: 0 10rem;
@@ -46,7 +46,7 @@ export const leftSide = styled.div`
         color: #fff;
         font-weight: 400;
 
-        @media screen and (max-width: 826px){
+        @media screen and (max-width: 834px){
             text-align: center;
             font-size: 9rem;
             margin: 0;
@@ -65,7 +65,10 @@ export const rightSide = styled.div`
     justify-content: center;
     height: 80vh;
     @media screen and (max-width: 430px){
-        height: 100vh;
+        height: 33rem;
+    }
+    @media screen and (max-width: 834px){
+        height: 30rem;
     }
 
     button{
@@ -88,11 +91,13 @@ export const rightSide = styled.div`
             height: 180px;
             font-size: 2rem;
             &:hover{
-            width: 250px;
-            height: 250px;
-            
+                width: 250px;
+                height: 250px;
             }
         }
+
+       
+        
         
     }
     
