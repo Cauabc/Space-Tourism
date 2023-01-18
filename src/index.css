@@ -1,0 +1,33 @@
+/* fonts */
+/* font-family: 'Bellefair', serif;
+font-family: 'Barlow Condensed', serif; */
+
+
+@font-face {
+  font-family: Bellefair;
+  src: url(./fonts/Bellefair-Regular.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+
+}
+
+body,
+html {
+  overflow: hidden;
+}
+
+@media screen and (max-width: 826px) {
+
+  body,
+  html {
+    overflow-y: auto;
+  }
+}
