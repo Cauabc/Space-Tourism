@@ -50,6 +50,7 @@ export const leftSide = styled.div`
         }
         @media screen and (max-width: 430px){
             width: 70%;
+            margin-left: 0;
         }
 
     }
@@ -83,9 +84,9 @@ export const rightSide = styled.div`
     }
 
     @media screen and (max-width: 430px){
-        height: 63vh;
+        height: 80vh;
         position: relative;
-        top: 3rem;
+        top: 0;
         margin-bottom: 0;
     }
     
