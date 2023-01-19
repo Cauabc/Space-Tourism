@@ -144,6 +144,7 @@ export const NavMobile = styled.div`
     position: fixed;
     right: -100%;
     z-index: 100;
+
     .navbarmobile{
         position: fixed;
         right: -100%;
@@ -179,3 +180,5 @@ export const NavMobile = styled.div`
     }
 
 `
+
+

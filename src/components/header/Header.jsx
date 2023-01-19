@@ -41,7 +41,9 @@ const routerHeader = () => {
                     <span></span>
                 </div>
             </S.hamburguerHeader>
+
             <S.NavMobile >
+
                 <div className="navbarmobile" id={IsOpen}>
                     <ul className='teste' id='open' >
                         <NavLink to="/" activeClassName="active"><li><span>00</span>HOME</li></NavLink>

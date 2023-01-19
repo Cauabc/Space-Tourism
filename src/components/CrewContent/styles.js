@@ -20,7 +20,7 @@ export const leftSide = styled.div`
     height: 80vh;
     position: relative;
     @media screen and (max-width: 834px){
-        padding-top: 7vh;
+        padding-top: 1vh;
         width: 100vw;
         height:80vh;
         padding-left: 0;
@@ -73,9 +73,12 @@ export const rightSide = styled.div`
     img{
         position: absolute;
         bottom: 0;
-        height: 38vw;
+        height: 70vh;
+        @media screen and (width: 2560px){
+            height: 31vw;
+        }
         @media screen and (max-width: 834px){
-            height: 49vw;
+            height: 50vw;
         }
         @media screen and (max-width: 430px){
             bottom: -320px;
@@ -131,7 +134,7 @@ export const next = styled.div`
     top: 450px;
     @media screen and (max-width: 834px){
         left: 50%;
-        top: 435px;
+        top: 345px;
         transform: translateX(-50%);
     }
     @media screen and (max-width: 430px){

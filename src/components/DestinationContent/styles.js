@@ -16,9 +16,14 @@ export const leftSide = styled.div`
     height: 80vh;
     @media screen and (max-width: 834px){
         width: 100vw;
+        height: 52vh;
         text-align: center;
-        padding-top: 10vh;
+        padding-top: 2vh;
         padding-left: 0;
+    }
+    @media screen and (max-width: 430px){
+        height: 40vh;
+        padding-top: 0;
     }
     p{
         font-size: 1.4rem;
@@ -37,8 +42,11 @@ export const leftSide = styled.div`
         margin-left: 2rem;
         width: 70%;
         animation: spin 15s infinite linear;
+        @media screen and (width: 2560px){
+            width: 22vw;
+        }
         @media screen and (max-width: 834px){
-            width: 50%;
+            width: 40%;
         }
         @media screen and (max-width: 430px){
             width: 70%;
@@ -75,8 +83,9 @@ export const rightSide = styled.div`
     }
 
     @media screen and (max-width: 430px){
+        height: 63vh;
         position: relative;
-        top: -10vh;
+        top: 3rem;
         margin-bottom: 0;
     }
     
